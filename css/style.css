@@ -46,3 +46,8 @@
 .jumbotron-subtitle--strong {
   font-size: 30px;
 }
+
+.card-link-container {
+  flex-grow: 0;
+  height: 50px;
+}
