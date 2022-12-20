@@ -4,14 +4,19 @@
   --light-color: #ffffff;
 }
 
-/* .portfolio-navbar {
-  background-color: rgba(101, 99, 153, 0.52) !important;
-} */
+.portfolio-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 
 .jumbotron {
   display: flex;
   align-items: center;
   height: 350px;
+  margin-top: 72px;
   border-radius: 0;
   background-image: linear-gradient(
       to bottom,
