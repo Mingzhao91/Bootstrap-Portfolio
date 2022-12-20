@@ -23,7 +23,14 @@
   background-position: center;
 }
 
-.jumbotron h2 {
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 2px solid var(--light-color);
+}
+
+.jumbotron-title {
   background-color: var(--light-color);
   display: inline-block;
   color: var(--primary-color);
@@ -32,18 +39,11 @@
   border-radius: 5px;
 }
 
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  border: 2px solid var(--light-color);
-}
-
-.subtitle {
+.jumbotron-subtitle {
   font-size: 26px;
   color: var(--light-color);
 }
 
-.subtitle--strong {
+.jumbotron-subtitle--strong {
   font-size: 30px;
 }
