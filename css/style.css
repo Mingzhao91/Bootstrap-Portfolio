@@ -32,15 +32,18 @@
   border-radius: 5px;
 }
 
-.jumbotron h3 {
-  color: var(--light-color);
-  font-weight: bold;
-  text-align: center;
-}
-
 .avatar {
   width: 100px;
   height: 100px;
   border-radius: 100px;
   border: 2px solid var(--light-color);
+}
+
+.subtitle {
+  font-size: 26px;
+  color: var(--light-color);
+}
+
+.subtitle--strong {
+  font-size: 30px;
 }
