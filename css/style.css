@@ -1,3 +1,4 @@
+/* define resuable style rules */
 :root {
   --primary-color: #b59dcc;
   --primary-color-deep: #8259aa;
@@ -8,11 +9,14 @@
   --transition: all 0.5s ease-out;
 }
 
+/* overwrite Boostrap background color */
 body {
   background-color: var(--primary-color) !important;
 }
 
+/* navbar starts here */
 .portfolio-navbar {
+  /* apply css to build a fix header */
   position: fixed;
   top: 0;
   right: 0;
@@ -20,13 +24,16 @@ body {
   z-index: 1030;
   background-color: var(--primary-color-deep) !important;
 }
+/* navbar ends here */
 
+/* jumbotron starts here */
 .jumbotron {
   display: flex;
   align-items: center;
   height: 350px;
   margin-top: 72px;
   border-radius: 0;
+  /* apply gradient on background image */
   background-image: linear-gradient(
       to bottom,
       rgba(102, 126, 234, 0.52),
@@ -60,7 +67,9 @@ body {
 .jumbotron-subtitle--strong {
   font-size: 30px;
 }
+/* jumbotron ends here */
 
+/* work starts here */
 #work {
   scroll-margin-top: 100px;
 }
@@ -70,6 +79,7 @@ body {
 }
 
 .project-card:hover {
+  /* apply hover effect on project card */
   box-shadow: var(--box-shadow);
   background-color: var(--secondary-color);
   color: var(--light-color);
@@ -79,11 +89,13 @@ body {
 }
 
 .project-card:hover .card-link-container {
+  /* apply hover effect on the link container when project card is hovered */
   box-shadow: var(--box-shadow);
   background-color: var(--secondary-color-deep);
 }
 
 .project-card:hover .card-link-container a {
+  /* apply hover effect on the link when project card is hovered */
   color: var(--light-color);
 }
 
@@ -92,7 +104,9 @@ body {
   height: 50px;
   transition: var(--transition);
 }
+/* work ends here */
 
+/* skills starts here */
 .tech-icon {
   display: block;
   margin-left: auto;
@@ -109,7 +123,9 @@ body {
 }
 
 .skill-container:hover {
+  /* apply hover effect on skill container */
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
 }
+/* skills ends here */
