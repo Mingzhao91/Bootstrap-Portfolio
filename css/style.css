@@ -1,8 +1,11 @@
 :root {
-  --primary-color: #9b7bbb;
+  --primary-color: #b59dcc;
   --primary-color-deep: #8259aa;
-  --secondary-color: #667eea;
+  --secondary-color: #a3b1f2;
+  --secondary-color-deep: #667eea;
   --light-color: #ffffff;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.45);
+  --transition: all 0.5s ease-out;
 }
 
 body {
@@ -43,7 +46,7 @@ body {
 .jumbotron-title {
   background-color: var(--light-color);
   display: inline-block;
-  color: var(--primary-color);
+  color: var(--secondary-color-deep);
   font-weight: 700;
   padding: 10px 35px;
   border-radius: 5px;
@@ -58,9 +61,32 @@ body {
   font-size: 30px;
 }
 
+.project-card {
+  transition: var(--transition);
+}
+
+.project-card:hover {
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+}
+
+.project-card:hover .card-link-container {
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color-deep);
+}
+
+.project-card:hover .card-link-container a {
+  color: var(--light-color);
+}
+
 .card-link-container {
   flex-grow: 0;
   height: 50px;
+  transition: var(--transition);
 }
 
 .tech-icon {
@@ -69,4 +95,17 @@ body {
   margin-right: auto;
   width: 60px;
   height: 60px;
+}
+
+.skill-container {
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 1px solid var(--light-color);
+  transition: var(--transition);
+}
+
+.skill-container:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  box-shadow: var(--box-shadow);
 }
