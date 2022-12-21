@@ -1,7 +1,12 @@
 :root {
-  --primary-color: rgb(102, 126, 234);
-  --secondary-color: rgb(118, 75, 162);
+  --primary-color: #9b7bbb;
+  --primary-color-deep: #8259aa;
+  --secondary-color: #667eea;
   --light-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-color) !important;
 }
 
 .portfolio-navbar {
@@ -10,6 +15,7 @@
   right: 0;
   left: 0;
   z-index: 1030;
+  background-color: var(--primary-color-deep) !important;
 }
 
 .jumbotron {
