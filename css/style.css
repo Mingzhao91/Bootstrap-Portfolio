@@ -69,6 +69,31 @@ body {
 }
 /* jumbotron ends here */
 
+/* section title starts here */
+.section-title {
+  position: relative;
+}
+
+.section-title::before {
+  /* draw a line behind section title */
+  content: "";
+  display: block;
+  border-top: solid 2px var(--light-color);
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+}
+
+.section-title-text {
+  background: var(--primary-color);
+  padding: 0 30px;
+  position: relative;
+  z-index: 1;
+}
+/* section title starts here */
+
 /* work starts here */
 #work {
   scroll-margin-top: 100px;
