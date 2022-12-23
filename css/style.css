@@ -94,11 +94,19 @@ body {
 }
 /* section title starts here */
 
-/* work starts here */
-#work {
+/* 
+allows page to scroll to the title header when links 
+in the header is clicked by setting scroll-margin-top rule 
+due to the sticky header
+*/
+#work,
+#skills,
+#about,
+#contact {
   scroll-margin-top: 100px;
 }
 
+/* work starts here */
 .placeholder {
   display: inline-block;
   min-height: 1em;
