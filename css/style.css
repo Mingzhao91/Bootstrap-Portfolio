@@ -143,6 +143,18 @@ due to the sticky header
   transition: var(--transition);
 }
 
+/* apply background colour to project image */
+.project-img-container {
+  background-color: var(--secondary-color-deep);
+  transition: var(--transition);
+}
+
+.project-img {
+  object-fit: cover;
+  opacity: 0.6;
+  transition: var(--transition);
+}
+
 .project-card:hover {
   /* apply hover effect on project card */
   box-shadow: var(--box-shadow);
@@ -151,6 +163,16 @@ due to the sticky header
   border-radius: 15px;
   overflow: hidden;
   border: none;
+}
+
+.project-card:hover .project-img-container {
+  /* remove background colour from hover */
+  background-color: none;
+}
+
+.project-card:hover .project-img {
+  /* show original image from hover */
+  opacity: 1;
 }
 
 .project-card:hover .card-link-container {
