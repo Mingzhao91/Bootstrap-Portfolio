@@ -10,6 +10,7 @@ This is a portfolio website to show to recuiters, companies and people who inter
 
 - **[The Breakdown of a Website](#breakdown)**
   - [Header](#breakdown-header)
+  - [Jumbotron](#breakdown-jumbotron)
   - [Work](#breakdown-work)
   - [Skills](#breakdown-skills)
   - [About Me](#breakdown-about-me)
@@ -30,6 +31,15 @@ This is a portfolio website to show to recuiters, companies and people who inter
 
 A stikcy header stays on top of the page when scrolling. The header contains four navigation links for different sections of the website. By clicking on the navigation links, user will be navigated to particular content of the website.
 ![Header Image](./images/screenshots/portfolio-nav.png)
+<br />
+
+<div id="breakdown-jumbotron" />
+
+### Jumbotron
+
+A jumbotron section covers with nice background image, featuring my avatar, name and a brief summary of projects in a vertical order.
+
+![Header Image](./images/screenshots/portfolio-jumbostron.png)
 <br />
 
 <div id="breakdown-work" />
