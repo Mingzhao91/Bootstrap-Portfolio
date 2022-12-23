@@ -163,3 +163,35 @@ body {
   box-shadow: var(--box-shadow);
 }
 /* skills ends here */
+
+/* footer starts here */
+.contact-link-wrapper {
+  /* style for each item inside unorder list in header */
+  padding: 6px;
+  margin-right: 50px;
+  transition: background-color 0.3s linear;
+}
+
+.contact-link {
+  /* style for each individual link in header navigation */
+  font-size: 20px;
+  text-decoration: none !important;
+  color: var(--light-color);
+  /* border-bottom: 0.3rem solid var(--secondary-color); */
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+
+.contact-link-wrapper:hover {
+  /* change background color when hover navigation item */
+  background-color: var(--light-color);
+  box-shadow: var(--box-shadow);
+  transform: translateY(-10px);
+}
+
+.contact-link-wrapper:hover .contact-link {
+  /* change link color when hover navigation item */
+  color: var(--primary-color);
+  border-color: var(--light-color);
+}
+/* footer ends here */
