@@ -67,6 +67,29 @@ body {
 .jumbotron-subtitle--strong {
   font-size: 30px;
 }
+
+/* 
+reduce the height of jumbotron and also
+reduce font size of elements within jumbotron 
+*/
+@media only screen and (max-width: 576px) {
+  .jumbotron {
+    height: 300px;
+  }
+
+  .jumbotron-title {
+    font-size: 20px;
+  }
+
+  .jumbotron-subtitle {
+    font-size: 15px;
+  }
+
+  .jumbotron-subtitle--strong {
+    font-size: 20px;
+  }
+}
+
 /* jumbotron ends here */
 
 /* section title starts here */
@@ -106,7 +129,7 @@ due to the sticky header
   scroll-margin-top: 100px;
 }
 
-/* work starts here */
+/* work section starts here */
 .placeholder {
   display: inline-block;
   min-height: 1em;
@@ -146,9 +169,9 @@ due to the sticky header
   height: 50px;
   transition: var(--transition);
 }
-/* work ends here */
+/* work section ends here */
 
-/* skills starts here */
+/* skills section starts here */
 .tech-icon {
   display: block;
   margin-left: auto;
@@ -170,7 +193,7 @@ due to the sticky header
   border: 1px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
 }
-/* skills ends here */
+/* skills section ends here */
 
 /* footer starts here */
 .contact-link-wrapper {
