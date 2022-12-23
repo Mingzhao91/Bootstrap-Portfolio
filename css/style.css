@@ -200,7 +200,7 @@ due to the sticky header
   /* style for each item inside unorder list in header */
   padding: 6px;
   margin-right: 50px;
-  transition: background-color 0.3s linear;
+  transition: var(--transition);
 }
 
 .contact-link {
@@ -210,7 +210,7 @@ due to the sticky header
   color: var(--light-color);
   /* border-bottom: 0.3rem solid var(--secondary-color); */
   display: inline-block;
-  transition: all 0.3s linear;
+  transition: var(--transition);
 }
 
 .contact-link-wrapper:hover {
