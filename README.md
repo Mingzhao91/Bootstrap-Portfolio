@@ -41,7 +41,7 @@ This section list the most recent front end projects in card representations. Ea
 
 > Work
 
-<div id="breakdown-skills"
+<div id="breakdown-skills" />
 
 ### Skills
 
